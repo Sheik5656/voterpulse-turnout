@@ -4,55 +4,54 @@
     "mae": 2.967,
     "rmse": 3.876,
     "r2": 0.8704,
-    "mape": 4.719,
-    "cv_r2": null
+    "mape": 4.719
   },
   {
     "model": "Linear Regression",
     "mae": 2.788,
     "rmse": 3.463,
     "r2": 0.8965,
-    "mape": 4.302,
-    "cv_r2": 0.87
+    "mape": 4.302
   },
   {
     "model": "Ridge Regression",
     "mae": 2.779,
     "rmse": 3.448,
     "r2": 0.8974,
-    "mape": 4.286,
-    "cv_r2": 0.8694
+    "mape": 4.286
   },
   {
     "model": "Decision Tree",
-    "mae": 2.663,
-    "rmse": 3.539,
-    "r2": 0.8919,
-    "mape": 4.224,
-    "cv_r2": 0.848
+    "mae": 2.674,
+    "rmse": 3.537,
+    "r2": 0.892,
+    "mape": 4.239
   },
   {
     "model": "Random Forest",
-    "mae": 2.35,
-    "rmse": 3.132,
-    "r2": 0.9153,
-    "mape": 3.735,
-    "cv_r2": 0.8764
+    "mae": 2.352,
+    "rmse": 3.129,
+    "r2": 0.9155,
+    "mape": 3.737
   },
   {
     "model": "Gradient Boosting",
-    "mae": 2.282,
-    "rmse": 2.963,
-    "r2": 0.9242,
-    "mape": 3.683,
-    "cv_r2": 0.8867
+    "mae": 2.301,
+    "rmse": 2.96,
+    "r2": 0.9244,
+    "mape": 3.705
   },
   {
     "model": "Tuned Gradient Boosting",
-    "mae": 2.23,
-    "rmse": 2.925,
-    "r2": 0.9262,
-    "mape": 3.571,
-    "cv_r2": 0.8948
+    "mae": 2.252,
+    "rmse": 2.929,
+    "r2": 0.926,
+    "mape": 3.619,
+    "best_params": {
+      "learning_rate": 0.12,
+      "max_depth": 3,
+      "min_samples_leaf": 4,
+      "n_estimators": 80
+    }
   }
 ]
