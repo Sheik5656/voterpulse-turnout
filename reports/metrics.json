@@ -1,0 +1,58 @@
+[
+  {
+    "model": "Naive (previous = target)",
+    "mae": 2.967,
+    "rmse": 3.876,
+    "r2": 0.8704,
+    "mape": 4.719,
+    "cv_r2": null
+  },
+  {
+    "model": "Linear Regression",
+    "mae": 2.788,
+    "rmse": 3.463,
+    "r2": 0.8965,
+    "mape": 4.302,
+    "cv_r2": 0.87
+  },
+  {
+    "model": "Ridge Regression",
+    "mae": 2.779,
+    "rmse": 3.448,
+    "r2": 0.8974,
+    "mape": 4.286,
+    "cv_r2": 0.8694
+  },
+  {
+    "model": "Decision Tree",
+    "mae": 2.663,
+    "rmse": 3.539,
+    "r2": 0.8919,
+    "mape": 4.224,
+    "cv_r2": 0.848
+  },
+  {
+    "model": "Random Forest",
+    "mae": 2.35,
+    "rmse": 3.132,
+    "r2": 0.9153,
+    "mape": 3.735,
+    "cv_r2": 0.8764
+  },
+  {
+    "model": "Gradient Boosting",
+    "mae": 2.282,
+    "rmse": 2.963,
+    "r2": 0.9242,
+    "mape": 3.683,
+    "cv_r2": 0.8867
+  },
+  {
+    "model": "Tuned Gradient Boosting",
+    "mae": 2.23,
+    "rmse": 2.925,
+    "r2": 0.9262,
+    "mape": 3.571,
+    "cv_r2": 0.8948
+  }
+]
